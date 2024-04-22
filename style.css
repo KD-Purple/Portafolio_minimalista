@@ -1,0 +1,62 @@
+ body {
+    background-color: rgb(82, 208, 231);
+    font-family: Verdana;
+ }
+
+ ul {
+    font-size: 16px;
+    color: black;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 2%;
+}
+
+a {
+    color: black;
+}
+
+#hola {
+    font-family: 'Press Start 2P', cursive;
+}
+
+section {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+hr {
+    border: 1px solid gray;
+    background-color: gray;
+    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.columna1, .columna2 {
+    flex: 1; 
+  }
+
+  .texto {
+    text-align: justify;
+  }
+
+img {
+    margin-left: 10%;
+}
+
+p {
+    font-weight: bold;
+} 
+
+#pie_pagina{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
